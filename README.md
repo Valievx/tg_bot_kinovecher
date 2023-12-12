@@ -1,4 +1,4 @@
-![Лого](https://github.com/Valievx/telegram_bot_kinovecher/tree/main/media/logo.jpg)
+![Лого](https://github.com/Valievx/telegram_bot_kinovecher/blob/main/media/logo.jpg)
 # Кинопоиск Telegram Bot
 Этот Telegram бот поможет вам выбрать случайный фильм из подборки популярных фильмов для вашего киновечера.
 
