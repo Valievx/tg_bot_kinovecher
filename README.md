@@ -21,5 +21,5 @@
 
 Благодарим за использование “Киновечер” Telegram бота!
 
-Telegram_bot: @kinomate_bot
+Telegram_bot: @kinomate_bot<br/>
 Для связи:tg @valiev88
