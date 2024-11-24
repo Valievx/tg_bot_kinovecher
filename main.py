@@ -60,6 +60,18 @@ async def send_welcome(message: types.Message):
         )
 
 
+@dp.message_handler(commands=['update_db'])
+async def update_database(message: types.Message):
+    await message.reply('Обновление базы данных началось, подождите...')
+
+    try:
+        from update_db import update_database
+        update_database()
+        await message.reply("База данных успешно обновлена!")
+    except Exception as e:
+        await message.reply(f"Произошла ошибка при обновлении базы данных: {e}")
+
+
 # Обработка кнопки "Выбрать фильм"
 @dp.message_handler(text=['Выбрать фильм'])
 async def send_random_film(message: types.Message):
